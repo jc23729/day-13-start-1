@@ -1,11 +1,15 @@
 ############DEBUGGING#####################
 
-# # Describe Problem
-# def my_function():
-#   for i in range(1, 20):
-#     if i == 20:
-#       print("You got it")
-# my_function()
+# Describe Problem
+# what is the for loop doing?
+##its looping over a set of numbers from 1 to 20 not including 20
+#when is the function meant to print you got it?
+#what assumptions are you making about the value of i?
+def my_function():
+  for i in range(1, 20):
+    if i == 20:
+      print("You got it")
+my_function()
 
 # # Reproduce the Bug
 # from random import randint
