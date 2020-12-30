@@ -4,18 +4,19 @@
 # what is the for loop doing?
 ##its looping over a set of numbers from 1 to 20 not including 20
 #when is the function meant to print you got it?
+# when it reaches 20, you have to do 21, not 20 
 #what assumptions are you making about the value of i?
-def my_function():
-  for i in range(1, 20):
-    if i == 20:
-      print("You got it")
-my_function()
+# def my_function():
+#   for i in range(1, 21):
+#     if i == 20:
+#       print("You got it")
+# my_function()
 
-# # Reproduce the Bug
-# from random import randint
-# dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
-# dice_num = randint(1, 6)
-# print(dice_imgs[dice_num])
+# Reproduce the Bug
+from random import randint
+dice_imgs = ["❶", "❷", "❸", "❹", "❺", "❻"]
+dice_num = randint(1, 6)
+print(dice_imgs[dice_num])
 
 # # Play Computer
 # year = int(input("What's your year of birth?"))
